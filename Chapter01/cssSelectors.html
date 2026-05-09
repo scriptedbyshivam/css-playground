@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTORS</title>
+    <style>
+        h1{
+            color: red;
+        }
+
+        div.para{
+            background-color: aqua;
+        }
+        
+        div#red,h3{
+            background-color: red;
+            margin: 10px;
+        }
+
+
+        /* Agar do-do red to gaye toh particular uske file name se us chiz ko bulana hoga. Example: jasie maine div and span mai id red li thi usme red ka background colour change karna tha. isliye dono chizde same na ho jaye isliye unke file ke name ke sath unhe likha */
+
+        
+        #red{
+            background-color: yellow;
+        }
+
+        .blue{
+            color: white;
+            background-color: blue;
+            border: 2px solid black;
+            margin: 5px;
+        }
+        .black{
+            background-color: greenyellow;
+        }
+        /* universal use ke liye (*) */
+        *{
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="para">
+        <h1>This is My first CSS SELECTORS Website...</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, suscipit voluptatum. Nulla temporibus quo voluptas, sequi molestias possimus architecto vitae minus non eligendi alias, facere molestiae nostrum nobis iure. Tempora eveniet quaerat quia deleniti.
+        </p>
+    </div>
+
+    <div id="red">RED LINE...</div>
+    <br>
+    <span id="red">only line...</span>
+    <br>
+    <br>
+    <div class="">
+
+        <span class="blue">Frist class</span>
+        <span class="blue">Second class</span>
+        <span class="blue">Third class</span>
+    </div>
+    <div class="black">BLUE LINE...</div>
+    <h3>I am h3</h3>      
+</body>
+</html>
