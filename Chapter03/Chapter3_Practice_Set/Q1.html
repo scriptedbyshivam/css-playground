@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 3 -Practice Set</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        header{
+             height: 54px;
+             background: blue;
+             
+             
+        }
+        
+        /* :horizontal karne ke liye header ul mai jana hoga waha display flex karn HOGA then hume humara content like home about us and contact vo :horizontal milega */
+        header ul{
+    display: flex;          /*horizontal banata hai */
+    list-style: none;   
+    gap: 10px;    
+    
+}
+        
+        
+        .content{
+            background-color: aqua;
+            height: 90vh;
+        }
+        footer{
+            background-color: yellow;
+        }
+        .align{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </header>
+
+    <div class="content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur ad ex aperiam odio minus. Sequi deserunt vel, maiores dolore minus illum laboriosam, odio modi ipsa quia inventore iusto expedita quae?
+    </div>
+
+    <footer>
+       <p class="align"> Copywrite &copy; ScriptedByShivam </p>
+
+    </footer>
+    
+</body>
+</html>
